@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Words</title>
+</head>
+<body>
+    <img id="iphone" src="iphone.png" alt="">
+    <div class="camera-container">
+        <video id="camera-feed" autoplay class="camera-frame"></video>
+    </div>
+    <header>
+        <p id="current-time"></p>
+        <div id="battery-wifi">
+            <img id="bars" src="./bars.png" alt="">
+            <img id="wifi" src="./wifi.png" alt="">
+            <img id="battery" src="./Battery.png" alt="">
+        </div>
+        <div id="right">
+            <img id="refresh" src="refresh.png" alt="">
+            <img id="flash" src="flash.png" alt="">
+            <img id="line" src="line.png" alt="">
+            <img src="limit.png" alt="">
+            <img src="retouch.png" alt="">
+            <img src="filter.png" alt="">
+            <img src="speed.png" alt="">
+        </div>
+        <img id="x" src="x.png" alt="">
+    </header>
+    <div id="add-sound">
+        <img src="music.png" alt="">
+        <p>Add sound</p>
+    </div>
+    <div id="pyramid">
+        <div id="row-1" class="row">
+            <div class="square letter-square has-no-letter"></div>
+        </div>
+        <div id="row-2" class="row">
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+        </div>
+        <div id="row-3" class="row">
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+        </div>
+        <div id="row-4" class="row">
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+        </div>
+        <div id="row-5" class="row">
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+            <div class="square letter-square has-no-letter"></div>
+        </div>
+    </div>
+    <div class="skips-remaining-div" id="skips-remaining-div"><p><strong id="skips-remaining"></strong> Skips Used</p></div>
+    <div id="user-input" class="user-input margin-top">
+        <div id="restart" class="restart-skip">
+            <img id="restart-img" src="./Restart.png" alt="restart">
+        </div>
+        <div id=invisible class="invisible"></div>
+        <div id="letter" class="square has-letter"></div>
+        <div id="skip" class="restart-skip">
+            <img id="skip-img" src="./Skip.png" alt="skip">
+        </div>
+    </div>
+    
+    <footer>
+        <div id="times">
+            <p>10m</p>
+            <p>3m</p>
+            <p id="sixty-s">60s</p>
+            <p>15s</p>
+            <p>Photo</p>
+            <p>Text</p>
+        </div>
+        <div id="record">
+            <div class="effect-upload" id="effects">
+                <img src="icon.png" alt="">
+                <p>Effects</p>
+            </div>
+            <img id="record-button" src="record.png" alt="">
+            <div class="effect-upload" id="upload">
+                <img src="random.jpg" alt="">
+                <p>Upload</p>
+            </div>
+        </div>
+        <div id='bottom-words'>
+            <p>Upload</p>
+            <div id="camera-word">
+                <p>Camera</p>
+                <div id="small-circle"></div>
+            </div>
+            <p>Templates</p>
+        </div>
+        <div id="swipe-up"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
